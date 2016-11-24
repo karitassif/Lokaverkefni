@@ -9,6 +9,8 @@ test commit change
 
 ertu að reyna að utskýra hvað ég á að gera hérna ?
 
-Ættla að bætta við núna hérna og gerir comit change fyrst bara 
+Ættla að bætta við núna hérna og gerir comit change fyrst bara
 =======
 >>>>>>> origin/master
+
+bæti við núna 
