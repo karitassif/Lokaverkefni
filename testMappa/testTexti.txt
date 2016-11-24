@@ -2,9 +2,11 @@
 bla?
 Gett bætta við hérna
 
-prófa að bæta við meira 
+prófa að bæta við meira
 =======
 ﻿bla?
-Gett bætta við hérna 
+Gett bætta við hérna
 test commit change
 >>>>>>> origin/master
+
+ertu að reyna að utskýra hvað ég á að gera hérna ? 
