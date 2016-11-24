@@ -13,4 +13,5 @@ ertu að reyna að utskýra hvað ég á að gera hérna ?
 =======
 >>>>>>> origin/master
 
-bæti við núna 
+bæti við núna
+bæta við í desktop 
