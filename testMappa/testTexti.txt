@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿
+=======
+
+>>>>>>> master
 <<<<<<< HEAD
 prófa að bæta við meira
 =======
@@ -15,5 +19,8 @@ ertu að reyna að utskýra hvað ég á að gera hérna ?
 
 bæti við núna
 bæta við í desktop 
+<<<<<<< HEAD
 
 breytti herna
+=======
+>>>>>>> master
