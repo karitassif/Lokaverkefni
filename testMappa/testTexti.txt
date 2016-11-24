@@ -9,4 +9,6 @@ Gett bætta við hérna
 test commit change
 >>>>>>> origin/master
 
-ertu að reyna að utskýra hvað ég á að gera hérna ? 
+ertu að reyna að utskýra hvað ég á að gera hérna ?
+
+Ættla að bætta við núna hérna og gerir comit change fyrst bara 
