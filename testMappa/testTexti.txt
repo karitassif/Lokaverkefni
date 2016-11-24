@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-bla?
-Gett bætta við hérna
 
+<<<<<<< HEAD
 prófa að bæta við meira
 =======
 ﻿bla?
@@ -12,3 +10,5 @@ test commit change
 ertu að reyna að utskýra hvað ég á að gera hérna ?
 
 Ættla að bætta við núna hérna og gerir comit change fyrst bara 
+=======
+>>>>>>> origin/master
