@@ -21,7 +21,7 @@ bæti við núna
 <<<<<<< HEAD
 bæta við í desktop
 =======
-bæta við í desktop 
+bæta við í desktop
 >>>>>>> refs/remotes/origin/master
 <<<<<<< HEAD
 
@@ -33,3 +33,5 @@ breytti herna
 Nú er ég að sýna sunnu
 =======
 >>>>>>> refs/remotes/origin/master
+
+sýni sunnu aftur 
