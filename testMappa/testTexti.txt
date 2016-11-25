@@ -18,9 +18,18 @@ ertu að reyna að utskýra hvað ég á að gera hérna ?
 >>>>>>> origin/master
 
 bæti við núna
+<<<<<<< HEAD
+bæta við í desktop
+=======
 bæta við í desktop 
+>>>>>>> refs/remotes/origin/master
 <<<<<<< HEAD
 
 breytti herna
 =======
 >>>>>>> master
+<<<<<<< HEAD
+
+Nú er ég að sýna sunnu
+=======
+>>>>>>> refs/remotes/origin/master
