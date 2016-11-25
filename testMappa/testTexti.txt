@@ -15,5 +15,10 @@ ertu að reyna að utskýra hvað ég á að gera hérna ?
 
 bæti við núna
 bæta við í desktop
+<<<<<<< HEAD
 
-Nú er ég að sýna sunnu 
+breytti herna
+=======
+>>>>>>> master
+
+Nú er ég að sýna sunnu
