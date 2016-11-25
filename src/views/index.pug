@@ -3,5 +3,5 @@ extends layout
 block content
   h1= title
 
-  for channel in channels
-    h2: a(href=`${channel.endpoint}`)= channel.name
+  for concert in concerts
+    h2= concert.eventDateName
