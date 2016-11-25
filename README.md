@@ -1,3 +1,0 @@
-# Lokaverkefni
-Vefforitun
-testa
