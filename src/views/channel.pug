@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  if title
+    h1= title
+
+  if schedule && schedule.length > 0
+    p: a(href='/') Til baka
+    
+    for item in schedule
+      h3= item.title
+
+      h4= item.startTime
+      p= item.description
+      hr
+  else
+    p Engin dagksrá fannst
+
+  p: a(href='/') Til baka
