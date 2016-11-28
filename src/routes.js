@@ -51,5 +51,14 @@ router.get('/', (req, res) => {
   });
 });
 
+router.get('/umokkur', (req, res) => {
+  const title = 'Um okkur';
+  res.render('umokkur', { title});
+});
+
+router.get('/hafasamband', (req, res) => {
+  const title = 'Hafa samband';
+  res.render('hafasamband', { title});
+});
 
 module.exports = router;
