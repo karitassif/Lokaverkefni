@@ -29,5 +29,9 @@ block content
         div.well
           div.width
             h2= concert.eventDateName
+            h3= concert.name
+            h3= "Dagsetning: "+ new Date(concert.dateOfShow).toLocaleString()
+            h3= "Umsjón: "+ concert.userGroupName
+            h3= "Staðsetning: "+ concert.eventHallName
           div.picture
             img(class="rounded float-xs-left", src=concert.imageSource)
