@@ -12,26 +12,17 @@ block content
         a.navbar-brand(href="/") Tónleikar
       div(class="collapse navbar-collapse")
         ul(class="nav navbar-nav")
-          li.active
+          li
             a(href="/") Heim
           li
             a(href="/umokkur") Um okkur
-          li
+          li.active
             a(href="/hafasamband") Hafa samband
+
 
   div.jumbotron.text-center
     h1= title
-    p= "Tónleika líf á Íslandi"
+    p= "Hérna geturu haft samband við þessa snillinga"
 
-
-  for concert in concerts
-      div.container
-        div.well
-          h2= concert.eventDateName
-            div.width
-              h4= concert.name
-              h4= new Date(concert.dateOfShow).toLocaleString()
-              h4= concert.userGroupName
-              h4= concert.eventHallName
-            div.picture
-              img(class="rounded float-xs-left", src=concert.imageSource)
+  div.container
+    div.well
