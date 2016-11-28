@@ -27,11 +27,7 @@ block content
   for concert in concerts
       div.container
         div.well
-          h2= concert.eventDateName
-            div.width
-              h4= concert.name
-              h4= new Date(concert.dateOfShow).toLocaleString()
-              h4= concert.userGroupName
-              h4= concert.eventHallName
-            div.picture
-              img(class="rounded float-xs-left", src=concert.imageSource)
+          div.width
+            h2= concert.eventDateName
+          div.picture
+            img(class="rounded float-xs-left", src=concert.imageSource)
