@@ -6,3 +6,56 @@ body {
 a {
   color: #00B7FF;
 }
+
+h2 {
+  background-color: #66ff33;
+  max-width: 600px;
+}
+
+div.jumbotron.text-center {
+  margin-top: 40px;
+  background-color: #ccddff;
+}
+
+div.well {
+  background-color: #e6eeff;
+  position: relative;
+  min-height: 250px;
+  padding-left: 45px;
+}
+
+div.width {
+  padding-top: 20px;
+  background-color: #ffccff;
+}
+
+div.picture {
+  position: absolute;
+  right: 45px;
+  top: 30px;
+  overflow: hidden;
+}
+
+
+@media only screen and (max-width: 998px) {
+
+
+  div.well {
+    background-color: #e6eeff;
+    position: relative;
+    min-height: 450px;
+    padding-left: 45px;
+  }
+
+  div.picture {
+    position: absolute;
+    left: 45px;
+    padding-top: 200px;
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
