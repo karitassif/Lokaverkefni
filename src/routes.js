@@ -5,7 +5,17 @@ const redis = require('redis');
 const router = express.Router();
 
 // new redis client and connect to redis instance
-const client = redis.createClient();
+const client = redis.createClient({
+  retry_strategy: function (options) {
+    if (options.total_retry_time > 1000 * 3) {
+        // End reconnecting after a specific timeout
+        // and flush all commands with a individual error
+        return new Error('Retry time exhausted');
+    }
+    // reconnect after
+    return Math.max(options.attempt * 100, 3000);
+  }
+});
 
 const concertData = "test1";
 
