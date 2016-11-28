@@ -27,21 +27,26 @@ div.well {
   background-color: #e6eeff;
   position: relative;
   min-height: 250px;
-  padding-left: 45px;
+  /* padding-left: 45px; */
+  padding: 3rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 div.width {
   padding-top: 20px;
+  margin-bottom: 20px;
   background-color: #ffccff;
 }
-
+/*
 div.picture {
   position: absolute;
   right: 45px;
   top: 30px;
   overflow: hidden;
 }
-
+*/
 
 @media only screen and (max-width: 998px) {
 
@@ -51,15 +56,15 @@ div.picture {
     position: relative;
     min-height: 450px;
     padding-left: 45px;
+    display: block;
   }
-
+  /*
   div.picture {
     position: absolute;
     left: 45px;
     padding-top: 200px;
-
   }
-
+  */
 }
 
 @media only screen and (max-width: 600px) {
