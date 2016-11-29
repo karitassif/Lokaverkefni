@@ -26,3 +26,15 @@ block content
 
   div.container
     div.well
+      div.form
+        .form-group
+           label(for='new-email-name') Nafn:
+           input#new-email-name.form-control(type='text', required='', name='nameContact')
+           p= ""
+           label(for='new-email-email') Netfang:
+           input#new-email-email.form-control(type='email', required='', name='emailContact')
+           p= ""
+           label(for='new-email-text') Skilaboð:
+           textarea#new-email-text.form-control(type='text', name='textContact', required='', rows='10', cols='40')
+           p= ""
+           button.btn.btn-primary(type='submit') Senda póst
