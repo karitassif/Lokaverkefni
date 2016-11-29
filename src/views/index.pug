@@ -20,7 +20,7 @@ block content
             a(href="/hafasamband") Hafa samband
 
   div.jumbotron.text-center
-    h1= title
+    div.texti1= title
     p= "Tónleika líf á Íslandi"
 
 
@@ -28,10 +28,10 @@ block content
       div.container
         div.well
           div.width
-            h2= concert.eventDateName
-            h3= concert.name
-            h3= "Dagsetning: "+ new Date(concert.dateOfShow).toLocaleString()
-            h3= "Umsjón: "+ concert.userGroupName
-            h3= "Staðsetning: "+ concert.eventHallName
+            div.texti2= concert.eventDateName
+            div.texti3= concert.name
+            div.texti3= "Dagsetning: "+ new Date(concert.dateOfShow).toLocaleString()
+            div.texti3= "Umsjón: "+ concert.userGroupName
+            div.texti3= "Staðsetning: "+ concert.eventHallName
           div.picture
             img(class="rounded float-xs-left", src=concert.imageSource)

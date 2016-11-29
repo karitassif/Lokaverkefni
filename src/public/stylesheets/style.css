@@ -15,6 +15,24 @@ h2 {
   max-width: 600px;
 }
 
+div.texti1 {
+  font-family: 'Bitter', serif;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+div.texti2 {
+  font-family: 'Bitter', serif;
+  max-width: 600px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+div.texti3 {
+  font-family: 'Bitter', serif;
+  font-size: 2.7rem;
+}
+
 div.jumbotron.text-center {
   margin-top: 40px;
   background-color: #ccddff;
@@ -31,14 +49,8 @@ div.well {
   align-items: flex-start;
 }
 
-div.width {
-  padding-top: 20px;
-  margin-bottom: 20px;
-  background-color: #ffccff;
-}
-
 div.umokkur {
-  
+
 }
 /*
 div.picture {
@@ -58,6 +70,12 @@ div.picture {
     min-height: 450px;
     padding-left: 45px;
     display: block;
+  }
+
+  div.width {
+    /*padding-top: 20px;*/
+    margin-bottom: 20px;
+    /*background-color: #ffccff;*/
   }
   /*
   div.picture {
