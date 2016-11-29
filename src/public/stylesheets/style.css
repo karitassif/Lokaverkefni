@@ -1,19 +1,16 @@
-@font-face {
-     font-family: 'Bitter', serif;
-     src: url('fonts/Bitter-Regular.otf');
- }
 
 body {
   padding: 0px;
-  font: 14px "Bitter-Regular", Helvetica, Arial, sans-serif;
+  font: 14px "Bitter", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+  font-family: 'Bitter', serif;
 }
 
 h2 {
-  font-family: BitterRegular, sans-serif;
+  font-family: 'Bitter', serif;
   background-color: #66ff33;
   max-width: 600px;
 }
