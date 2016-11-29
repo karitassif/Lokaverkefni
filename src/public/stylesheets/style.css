@@ -11,7 +11,6 @@ a {
 
 h2 {
   font-family: 'Bitter', serif;
-  background-color: #66ff33;
   max-width: 600px;
 }
 
@@ -34,11 +33,13 @@ div.well {
 div.width {
   padding-top: 20px;
   margin-bottom: 20px;
-  background-color: #ffccff;
 }
 
 div.umokkur {
-  
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 /*
 div.picture {
