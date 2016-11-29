@@ -46,13 +46,7 @@ div.well {
   padding: 3rem 8rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-div.width {
-  padding-top: 20px;
-  margin-bottom: 20px;
-  background-color: #ffccff;
+  align-items: flex-start;
 }
 
 div.umokkur {
@@ -76,6 +70,12 @@ div.picture {
     min-height: 450px;
     padding-left: 45px;
     display: block;
+  }
+
+  div.width {
+    /*padding-top: 20px;*/
+    margin-bottom: 20px;
+    /*background-color: #ffccff;*/
   }
   /*
   div.picture {
