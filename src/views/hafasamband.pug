@@ -28,13 +28,19 @@ block content
     div.well
       div.form
         .form-group
-           label(for='new-email-name') Nafn:
-           input#new-email-name.form-control(type='text', required='', name='nameContact')
-           p= ""
-           label(for='new-email-email') Netfang:
-           input#new-email-email.form-control(type='email', required='', name='emailContact')
-           p= ""
-           label(for='new-email-text') Skilaboð:
-           textarea#new-email-text.form-control(type='text', name='textContact', required='', rows='10', cols='40')
-           p= ""
-           button.btn.btn-primary(type='submit') Senda póst
+          form(action='/contact', name='contactus', id='contactus', method='post')
+            fieldset
+              p
+                label(for='name') Name:
+                br
+                input(name='name', type='text', value='', id='name')
+              p
+                label(for='email') Email:
+                br
+                input(name='email', type='text', value='', id='email')
+              p
+                label(for='message') Message:
+                br
+                textarea(name='message', cols='40', rows='10', id='message')
+              p
+                input(name='submit', type='submit', value='Send', id='submit')

@@ -2,6 +2,7 @@ const scheduleApi = require('./schedule');
 const express = require('express');
 const redis = require('redis');
 
+
 const router = express.Router();
 
 // new redis client and connect to redis instance
@@ -56,9 +57,11 @@ router.get('/umokkur', (req, res) => {
   res.render('umokkur', { title});
 });
 
-router.get('/hafasamband', (req, res) => {
-  const title = 'Hafa samband';
-  res.render('hafasamband', { title});
-});
+
+
+router.contact = function(req, res){
+    res.render('hafasamband', { title: 'Raging Flame Laboratory - Contact', page: 'hafasamband' })
+};
+
 
 module.exports = router;
