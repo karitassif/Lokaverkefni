@@ -1,0 +1,29 @@
+extends layout
+
+block content
+
+  div(class="navbar navbar-inverse navbar-fixed-top")
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle(type="button", data-toggle="collapse", data-target="#myNavbar")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href="/") Tónleikar
+      div(class="collapse navbar-collapse")
+        ul(class="nav navbar-nav")
+          li.active
+            a(href="/") Heim
+          li
+            a(href="/umokkur") Um okkur
+          li
+            a(href="/hafasamband") Hafa samband
+
+  div.jumbotron.text-center
+    div.texti1= title
+    p= "Tónleika líf á Íslandi"
+
+  div.container
+    div.well
+      div.width
+        div.texti2= msg
