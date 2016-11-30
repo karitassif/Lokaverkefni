@@ -54,10 +54,21 @@ div.well {
 }
 
 div.umokkur {
+
+
+}
+
+div.umokkur-upl {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-top: 30px;
+}
+
+
+div.umokkur-texti {
+  padding-left: 30px;
 }
 /*
 div.picture {
@@ -84,13 +95,23 @@ div.picture {
     margin-bottom: 20px;
     /*background-color: #ffccff;*/
   }
-  /*
-  div.picture {
-    position: absolute;
-    left: 45px;
-    padding-top: 200px;
+
+  div.umokkur {
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
-  */
+
+  div.umokkur-upl {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.umokkur-texti {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
