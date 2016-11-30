@@ -23,7 +23,7 @@ function concerts() {
       .then((response) => {
         if (response.status === 200) {
           const result = response.data.results;
-          console.log("apis");
+          // console.log("apis");
           resolve(result);
         }
 
