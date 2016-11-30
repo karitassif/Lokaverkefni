@@ -33,7 +33,7 @@ router.get('/', (req, res) => {
     if (result) {
       // the result exists in our cache - return it to our user immediately
       const fixed = JSON.parse(result);
-      // console.log("redis");
+      console.log("redis");
       res.render('index', { title, concerts: fixed });
     } else {
       scheduleApi
