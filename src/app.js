@@ -21,39 +21,36 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 
-app.post('/send', (req,res) => {
-  console.log('POST!');
-  let mailOpts, smtpTrans;
-  //Setup Nodemailer transport, I chose gmail. Create an application-specific password to avoid problems.
-  smtpTrans = nodemailer.createTransport('SMTP', {
-      service: 'Gmail',
-      auth: {
-          user: "tonleikar.lokaverkefni@gmail.com",
-          pass: "lokaverkefni2016"
-      }
+app.post('/send', (req, res) => {
+  // Setup Nodemailer transport, I chose gmail.
+  // Create an application-specific password to avoid problems.
+  const smtpTrans = nodemailer.createTransport('SMTP', {
+    service: 'Gmail',
+    auth: {
+      user: 'tonleikar.lokaverkefni@gmail.com',
+      pass: 'lokaverkefni2016',
+    },
   });
-  //Mail options
-  mailOpts = {
-      from: req.body.name + ' &lt;' + req.body.email + '&gt;', //grab form data from the request body object
-      to: 'tonleikar.lokaverkefni@gmail.com',
-      subject: `Website contact form - ${req.body.name} - ${req.body.email}`,
-      text: req.body.message
+  // Mail options
+  const mailOpts = {
+    from: req.body.email, // grab form data from the request body object
+    to: 'tonleikar.lokaverkefni@gmail.com',
+    subject: `Website contact form - ${req.body.name} - ${req.body.email}`,
+    text: req.body.message,
   };
-  smtpTrans.sendMail(mailOpts, function (error, response) {
-      //Email not sent
-      if (error) {
-        const title = 'Haft samband';
-        const msg = 'Email var EKKI sent!'
-        res.render('send', { title, msg });
-        return console.log(error);
-      }
-      //Yay!! Email sent
-      else {
-        const title = 'Haft samband';
-        const msg = 'Email sent!'
-        res.render('send', { title, msg });
-        console.log('SENT!');
-      }
+  smtpTrans.sendMail(mailOpts, (error, response) => {
+    // Email not sent
+    if (error) {
+      const title = 'Haft samband';
+      const msg = 'Email var EKKI sent!';
+      res.render('send', { title, msg });
+      // console.log(error);
+    } else { // Yay!! Email sent
+      const title = 'Haft samband';
+      const msg = 'Email sent!';
+      res.render('send', { title, msg });
+      // console.log('SENT!');
+    }
   });
 });
 
