@@ -9,6 +9,10 @@ a {
   font-family: 'Bitter', serif;
 }
 
+p {
+  font-family: 'Bitter', serif;
+}
+
 h2 {
   font-family: 'Bitter', serif;
   background-color: #66ff33;
@@ -50,7 +54,10 @@ div.well {
 }
 
 div.umokkur {
-
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 /*
 div.picture {
