@@ -65,10 +65,9 @@ div.umokkur-texti {
 }
 
 div.logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px 2px 0;
+display: flex;
+align-items: center;
+justify-content: space-around;;
 }
 
 div.container-folow {
@@ -77,6 +76,10 @@ div.container-folow {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+div.taki {
+  padding-top: 40px;
 }
 
 @media only screen and (max-width: 998px) {
