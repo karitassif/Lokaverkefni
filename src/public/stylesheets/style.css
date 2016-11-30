@@ -28,13 +28,13 @@ div.texti1 {
 div.texti2 {
   font-family: 'Bitter', serif;
   max-width: 600px;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   font-weight: bold;
 }
 
 div.texti3 {
   font-family: 'Bitter', serif;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 
 div.jumbotron.text-center {
@@ -64,6 +64,21 @@ div.umokkur-texti {
   padding-left: 30px;
 }
 
+div.logo {
+
+display: flex;
+align-items: center;
+justify-content: space-around;;
+padding: 10px 2px 0px 2px;
+}
+
+div.container-folow {
+  position: center;
+  padding:40px 0px 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
 @media only screen and (max-width: 998px) {
   div.well {
     background-color: #e6eeff;

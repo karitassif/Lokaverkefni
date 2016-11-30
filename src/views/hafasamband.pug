@@ -31,16 +31,26 @@ block content
           form(action='/send', method='post')
             fieldset
               p
-                label(for='name') Name:
+                label(for='name') Nafn:
                 br
-                input(name='name', type='text', value='', id='name')
+                input(name='name', type='text', value='', id='name', class='form-control', placeholder='Jón Jónsson')
               p
                 label(for='email') Email:
                 br
-                input(name='email', type='text', value='', id='email')
+                input(name='email', type='text', value='', id='email', required='', class='form-control', placeholder='netfang@gmail.com')
               p
-                label(for='message') Message:
+                label(for='message') Skilaboð:
                 br
-                textarea(name='message', cols='40', rows='10', id='message')
+                textarea(name='message', cols='40', rows='10', id='message', class='form-control', placeholder='Hér gettur skrifað snildar skilaboð')
               p
-                input(name='submit', type='submit', value='Send', id='submit')
+                input(name='submit', type='submit', value='Send', id='submit', class='btn btn-primary')
+
+  div.container-folow
+    div.texti3= "Fylgstu með!"
+      div.logo
+        a(href='https://www.facebook.com/')
+          img( src='images/facebook.jpg', alt='facebook-logo', width='30', height='30')
+        a(href='https://twitter.com/')
+          img( src='images/twitter.png', alt='Twitter-logo', width='30', height='30')
+        a(href='https://www.youtube.com/')
+          img( src='images/youtube.jpg', alt='Youtube-logo', width='30', height='30')
