@@ -68,20 +68,20 @@ div.logo {
 display: flex;
 align-items: center;
 justify-content: space-around;;
-padding: 10px 2px 0px 2px;
 }
 
 div.container-folow {
   position: center;
-  padding:40px 0px 40px 0;
+  padding: 40px 0;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 div.taki {
   padding-top: 40px;
 }
+
 @media only screen and (max-width: 998px) {
   div.well {
     background-color: #e6eeff;
