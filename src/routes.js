@@ -60,4 +60,10 @@ router.get('/hafasamband', (req, res) => {
   res.render('hafasamband', { title });
 });
 
+router.get('/send', (req, res) => {
+  const title = 'Haft samband';
+  const msg = 'Notaðu Hafa samband formið til að senda email'
+  res.render('send', { title, msg });
+});
+
 module.exports = router;
