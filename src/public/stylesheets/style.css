@@ -1,11 +1,11 @@
 
 body {
-  padding: 0px;
+  padding: 0;
   font: 14px "Bitter", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
   font-family: 'Bitter', serif;
 }
 
@@ -15,7 +15,7 @@ p {
 
 h2 {
   font-family: 'Bitter', serif;
-  background-color: #66ff33;
+  background-color: #6f3;
   max-width: 600px;
 }
 
@@ -39,23 +39,17 @@ div.texti3 {
 
 div.jumbotron.text-center {
   margin-top: 40px;
-  background-color: #ccddff;
+  background-color: #cdf;
 }
 
 div.well {
   background-color: #e6eeff;
   position: relative;
   min-height: 250px;
-  /* padding-left: 45px; */
   padding: 3rem 8rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-div.umokkur {
-
-
 }
 
 div.umokkur-upl {
@@ -66,22 +60,11 @@ div.umokkur-upl {
   padding-top: 30px;
 }
 
-
 div.umokkur-texti {
   padding-left: 30px;
 }
-/*
-div.picture {
-  position: absolute;
-  right: 45px;
-  top: 30px;
-  overflow: hidden;
-}
-*/
 
 @media only screen and (max-width: 998px) {
-
-
   div.well {
     background-color: #e6eeff;
     position: relative;
@@ -91,9 +74,7 @@ div.picture {
   }
 
   div.width {
-    /*padding-top: 20px;*/
     margin-bottom: 20px;
-    /*background-color: #ffccff;*/
   }
 
   div.umokkur {
@@ -109,11 +90,7 @@ div.picture {
   }
 
   div.umokkur-texti {
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 30px;
   }
-}
-
-@media only screen and (max-width: 600px) {
-
 }

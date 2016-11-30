@@ -7,7 +7,7 @@ const router = express.Router();
 // new redis client and connect to redis instance
 const client = redis.createClient({
   retry_strategy: (options) => {
-    if (options.total_retry_time > 1000 * 10) {
+    if (options.total_retry_time > 1000) {
       // End reconnecting after a specific timeout
       // and flush all commands with a individual error
       return new Error('Retry time exhausted');
@@ -19,12 +19,12 @@ const client = redis.createClient({
 
 const concertData = 'redisCache';
 
-/*
+
 // if an error occurs, print it to the console
 client.on('error', (err) => {
-  console.log("Error " + err);
+  console.log(`Error ${err}`);
 });
-*/
+
 
 router.get('/', (req, res) => {
   const title = 'Tónleikar';
