@@ -1,3 +1,5 @@
+Slóð á síðuna: https://lokaverkefni16.herokuapp.com/
+
 Finna þarf möppuna þar sem skránnar fyrir vefsíðuna eru staðsettar í cmd glugga.
 Svo skal skrifa npm install.
 
